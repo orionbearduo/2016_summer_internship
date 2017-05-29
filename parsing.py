@@ -1,3 +1,8 @@
+"""
+Batch processing the Japanese sentences parsing.
+The results will be stored in a dir. 
+If the dir is not settled, the program will new one automatically.
+"""
 import os
 import MeCab
 def fenci(argv,path) :
